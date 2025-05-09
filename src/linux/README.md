@@ -23,6 +23,11 @@
 
 1. **Установите необходимые утилиты:**
    - `curl`, `jq`, `awk`, `sort`, `uniq`, `head`, `tail` (обычно уже есть в Linux)
+   - Чтобы установить всё сразу на Ubuntu/Debian:
+
+```sh
+sudo apt update && sudo apt install -y curl jq gawk coreutils
+```
 
 2. **Запустите скрипты по порядку:**
 
